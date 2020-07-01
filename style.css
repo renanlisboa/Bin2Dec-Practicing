@@ -1,0 +1,106 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*, button, input {
+  font-family: 'Ubuntu', sans-serif;
+  border: 0;
+  outline: 0;
+}
+
+h2, p, a {
+  text-decoration: none;
+  color: #ccc;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #fb3;
+}
+
+ul li {
+  list-style: none;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.hide {
+  /* display: none; */
+  visibility: collapse;
+}
+
+.hide-content-box-2 {
+  display: none;
+}
+
+/* Homepage */
+#page-bg {
+  background-color: #1f1f1f;
+  height: 100%;
+}
+
+#page-bg .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+#page-bg .container .header-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 495px;
+}
+
+#page-bg .container .content-boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#page-bg .container .content-box-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#page-bg .container .content-box-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 128px;
+}
+
+.container .binary-content {
+  padding: 20px;
+  margin-top: 16px;
+}
+
+.container .decimal-content {
+  padding: 20px;
+  margin-top: 16px;
+}
+
+.binary-content label, .decimal-content label {
+  text-decoration: none;
+  color: #ccc;
+  font-weight: bold;
+  padding-right: 16px;
+}
+
+.binary-content input, .decimal-content input  {
+  width: 150px;
+  height: 20px;
+  border-radius: 3px;
+  background-color: #F2F2F9;
+}
