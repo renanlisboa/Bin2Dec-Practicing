@@ -102,11 +102,21 @@ html, body {
 }
 
 .container .binary-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 259.36px;
+  height: 62px;
   padding: 20px;
   margin-top: 16px;
 }
 
 .container .decimal-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 259.36px;
+  height: 62px;
   padding: 20px;
   margin-top: 16px;
 }
@@ -123,6 +133,20 @@ html, body {
   height: 22px;
   border-radius: 3px;
   background-color: #F2F2F9;
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.binary-output, .decimal-output {
+  width: 150px;
+  height: 22px;
+  border-radius: 3px;
+  background-color: #F2F2F9;
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.6em;
 }
 
 #page-bg .container .converter-button {
