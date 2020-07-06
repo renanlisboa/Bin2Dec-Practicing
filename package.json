@@ -1,0 +1,20 @@
+{
+  "name": "Praticing-Bin2Dec",
+  "version": "0.1.0",
+  "description": "Binary to decimal and decimal to binary converter",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renanlisboa/Praticing-Bin2Dec.git"
+  },
+  "keywords": [],
+  "author": "Renan Lisboa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renanlisboa/Praticing-Bin2Dec/issues"
+  },
+  "homepage": "https://github.com/renanlisboa/Praticing-Bin2Dec#readme"
+}
