@@ -166,3 +166,13 @@ html, body {
   font-weight: bold;
   text-align: center;
 }
+
+.error-msg {
+  display: flex;
+  align-self: flex-start;
+  justify-self: flex-start;
+  font-size: 13px;
+  color: rgb(219, 91, 91);
+  margin-left: 88px;
+  line-height: 0;
+}
