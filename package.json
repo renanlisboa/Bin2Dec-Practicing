@@ -2,9 +2,9 @@
   "name": "Praticing-Bin2Dec",
   "version": "0.1.0",
   "description": "Binary to decimal and decimal to binary converter",
-  "main": "script.js",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/renanlisboa/Praticing-Bin2Dec/issues"
   },
-  "homepage": "https://github.com/renanlisboa/Praticing-Bin2Dec#readme"
+  "homepage": "https://github.com/renanlisboa/Praticing-Bin2Dec#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
