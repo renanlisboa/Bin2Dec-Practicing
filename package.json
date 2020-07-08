@@ -4,7 +4,8 @@
   "description": "Binary to decimal and decimal to binary converter",
   "main": "src/server.js",
   "scripts": {
-    "start": "nodemon src/server.js"
+    "start": "nodemon src/server.js",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -16,9 +17,10 @@
   "bugs": {
     "url": "https://github.com/renanlisboa/Praticing-Bin2Dec/issues"
   },
-  "homepage": "https://github.com/renanlisboa/Praticing-Bin2Dec#readme",
+  "homepage": "https://renanlisboa.github.io/Bin2Dec-Practicing",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "gh-pages": "^3.1.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
