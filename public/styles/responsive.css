@@ -1,0 +1,75 @@
+/* Media Queries */
+@media (max-width: 565px) {
+  .main-box {
+    width: 315px;
+    height: 420px;
+  }
+
+  #page-bg .container .header-box {
+    justify-content: center;
+    width: 315px;    
+  }
+
+  .header-box .toggle-button {
+    position: fixed;
+    bottom: 88px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  #page-bg .container .content-box-1 {
+    flex-direction: column;
+    width: 315px;
+  }
+
+  .container .binary-content {
+    flex-direction: column;
+    width: 315px;
+    height: 100px;
+  }
+
+  .container .decimal-content {
+    flex-direction: column;
+    width: 315px;
+    height: 100px;
+  }
+
+  .content-boxes .binary-content label {
+    padding-right: 14px;
+  }
+
+  .content-boxes .decimal-content label {
+    padding: 0;
+  }
+
+  .binary-content input, .decimal-content input {
+    width: 190px;
+  }
+
+  .binary-output, .decimal-output {
+    width: 190px;
+  }
+
+  #page-bg .container .content-box-2 {
+    flex-direction: column;
+    top: 83px;
+  }
+
+  #page-bg .container .converter-button {
+    justify-content: space-around;
+    width: 315px;
+  }
+
+  .converter-button button {
+    align-self: center;
+    justify-self: center;
+    width: 150px;
+    height: 26px;
+  }
+
+  .error-msg {
+    position: fixed;
+    top: 196px;
+    left: -38px;
+  }
+}
