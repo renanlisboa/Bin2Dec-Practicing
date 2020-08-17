@@ -20,7 +20,8 @@
   "homepage": "https://renanlisboa.github.io/Bin2Dec-Practicing",
   "dependencies": {
     "express": "^4.17.1",
-    "gh-pages": "^3.1.0"
+    "gh-pages": "^3.1.0",
+    "lodash": "^4.17.20"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
