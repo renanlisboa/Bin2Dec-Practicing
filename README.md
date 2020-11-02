@@ -1,1 +1,1 @@
-live preview: https://renanlisboa.github.io/Bin2Dec-Practicing/
+live preview: https://renanlisboa.github.io/bin2dec-app-ideas/
